@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 // import React from 'react'
-import { useCity } from "../context/CityContext";
+import { useCity}  from "../context/CityContext";
 import styles from "./CityItem.module.css";
 import { Link } from "react-router-dom";
 

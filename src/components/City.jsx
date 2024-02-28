@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-undef */
 import { useParams, useSearchParams } from "react-router-dom";
 import styles from "./City.module.css";
-import { useCity } from "../context/CityContext";
+import {useCity}  from "../context/CityContext";
 import { useEffect } from "react";
 import Spinner from "./Spinner";
 import BackButton from "./BackButton";

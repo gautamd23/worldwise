@@ -5,7 +5,7 @@ import Spinner from "./Spinner";
 // import City from './City'
 import Message from "./Message";
 import CityItem from "./CityItem";
-import {useCity } from "../context/CityContext";
+import {useCity}  from "../context/CityContext";
 
 export default function CityList() {
   const {cities, isLoading} = useCity();
